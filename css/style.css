@@ -1,0 +1,78 @@
+/*font faces*/
+
+@font-face {
+    font-family: Source Sans Bold;
+    src: url(../fonts/source-sans-pro/source-sans-pro-bold.otf);
+}
+@font-face{
+    font-family: Source Sans Regular;
+    src: url(../fonts/source-sans-pro/source-sans-pro-regular.otf);
+}
+/*common css start*/
+body{
+    margin: 0;
+    font-family: Playfair Display, serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #626262;
+}
+/*common css end*/
+/*header css start*/
+
+header{
+    padding: 66px 0;
+    background-color: lemonchiffon;
+}
+.container{
+    overflow: hidden;
+    width: 90%;
+    margin: 0 auto;
+    
+   
+}
+.logo{
+    width: 10%;
+    float: left;
+
+}
+.logo a{}
+.lolo img{
+    width: 100%;
+}
+.logo img a{}
+
+.menu{
+    margin-top: 3px;
+    float: right;
+    width: 70%;
+}
+.menu ul{
+    margin: 0;
+    float: right;
+    list-style: none;
+    
+
+    
+}
+.menu ul li{
+    float: left;
+    
+    
+}
+.menu ul li a{
+    margin: 0 40px;
+    display: inline-block;
+    color: #626262;
+    text-decoration: none;
+    text-transform: uppercase;
+  
+}
+
+.menu ul li: :last-child a{
+    margin-right: 0;
+}
+.menu ul li a:hover{}
+    
+
+   
+/*header css end*/
