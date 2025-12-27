@@ -1,0 +1,144 @@
+/*font faces*/
+
+@font-face {
+    font-family: Source Sans Bold;
+    src: url(../fonts/source-sans-pro/source-sans-pro-bold.otf);
+}
+@font-face{
+    font-family: Source Sans Regular;
+    src: url(../fonts/source-sans-pro/source-sans-pro-regular.otf);
+}
+/*common css start*/
+body{
+    margin: 0;
+    font-family: Playfair Display, serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #626262;
+}
+/*common css end*/
+/*header css start*/
+
+header{
+    padding: 70px 0;
+}
+.container{
+    overflow: hidden;
+    width: 90%;
+    margin: 0 auto;
+    
+   
+}
+.logo{
+    width: 10%;
+    float: left;
+
+}
+.logo a{}
+.lolo img{
+    width: 100%;
+}
+.logo img a{}
+
+.menu{
+    margin-top: 3px;
+    float: right;
+    width: 70%;
+}
+.menu ul{
+    margin: 0;
+    float: right;
+    list-style: none;
+    
+
+    
+}
+.menu ul li{
+    float: left;
+    
+    
+}
+.menu ul li a{
+    margin: 0 40px;
+    display: inline-block;
+    color: #626262;
+    text-decoration: none;
+    text-transform: uppercase;
+  
+}
+
+.menu ul li :last-child a{
+    margin-right: 0;
+}
+.menu ul li a:hover{}
+    
+
+   
+/*header css end*/
+
+
+
+/*banner css start*/
+.banner{
+    
+}
+.banner-image{
+   
+    padding: 0 5%;
+}
+.banner-image img{
+    width: 100%;
+}
+
+.banner-content{
+    padding: 0 10%;
+
+}
+.banner-content h2{
+    font-family: Ubuntu, serif;
+    font-family: 300;
+    color: #b4ad9e;
+    text-transform: uppercase;
+    padding-top: 60px;
+    padding-bottom: 10px;
+
+
+}
+.banner-content h1{
+    font-family: Playfair Display, serif;
+    font-weight: 600;
+    color: #626262;
+    padding-bottom: 10px;
+
+
+}
+.banner-content p{
+    font-family: Playfair Display, serif;
+    font-weight: 600;
+    color: #626262;
+    padding-bottom: 30px;
+}
+.banner-content h3{
+    font-family: Ubuntu, serif;
+    font-family: 300;
+    color: #b4ad9e;
+    text-transform: uppercase;
+    padding-bottom: 80px;
+}
+/*banner css end*/
+
+/*gallery css start*/
+
+.gallery{
+
+}
+
+.container1{
+
+}
+.g_content{
+
+}
+
+
+/*gallery css end*/
