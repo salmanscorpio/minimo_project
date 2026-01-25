@@ -1,0 +1,275 @@
+/*font faces*/
+
+@font-face {
+    font-family: Source Sans Bold;
+    src: url(../fonts/source-sans-pro/source-sans-pro-bold.otf);
+}
+@font-face{
+    font-family: Source Sans Regular;
+    src: url(../fonts/source-sans-pro/source-sans-pro-regular.otf);
+}
+/*common css start*/
+body{
+    margin: 0;
+    font-family:"Playfair Display", serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #626262;
+}
+/*common css end*/
+/*header css start*/
+
+header{
+    padding: 70px 0;
+}
+.container{
+    overflow: hidden;
+    width: 90%;
+    margin: 0 auto;
+    
+   
+}
+.logo{
+    width: 10%;
+    float: left;
+
+}
+.logo a{}
+.width100{
+    width: 100%;
+}
+.logo img{
+    width: 100%;
+}
+.logo img a{}
+
+.menu{
+    margin-top: 3px;
+    float: right;
+    width: 70%;
+}
+.menu ul{
+    margin: 0;
+    float: right;
+    list-style: none;
+    
+
+    
+}
+.menu ul li{
+    float: left;
+    
+    
+}
+.menu ul li a{
+    margin: 0 40px;
+    display: inline-block;
+    color: #626262;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-bottom: 3px solid transparent;
+    transition: linear 0.33s;
+}
+
+.menu ul li :last-child a{
+    margin-right: 0;
+}
+.menu ul li a:hover{
+    border-bottom: 3px solid rgb(251, 222, 5);
+}
+    
+
+   
+/*header css end*/
+
+.banner{}
+.banner_img{}
+
+/*article css start*/
+.article{
+    padding: 100px 0;
+}
+.container2{
+    overflow: hidden;
+    width: 80%;
+    margin: 0 auto;
+    padding: 70px 0;
+}
+.a_content{
+    
+}
+.light{
+    margin: 0;
+    font-family:"Ubuntu", sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.title{
+    margin:22px 0 32px ;
+    font-size: 30px;
+    font-weight: 400;
+}
+.text{
+   line-height: 28px;
+}
+.a_link{
+    margin-top:40px ;
+    text-transform: uppercase;
+    display: inline-block;
+    text-decoration: none; 
+    color: #626262;
+}
+
+/*article css end*/
+
+/*blog css start*/
+.blog{
+    padding: 0 0 100px;
+}
+.blog_item{
+    box-sizing: border-box;
+    float: left;
+    width: 46%;
+    
+   
+}
+.blog_img{
+    margin-bottom: 25px;
+   
+}
+.blog_item:nth-child(even){
+    margin-left: 6%;
+}
+
+
+
+/*blog css end*/
+
+/*newsletter css start*/
+.newsletter{
+    background-color: #e6e4e4;
+    padding: 71px 0; 
+    text-align: center;
+}
+.singup{
+    
+}
+.s_h1{
+    color: #333333;
+    margin-top: 0;
+    margin-bottom: 70px;
+}
+.s_form{
+    position: relative;
+    width: 400px;
+    margin: 0 auto;
+    
+}
+.s_form input{
+    font-family:"Playfair Display", serif;
+    font-size: 16px;
+    color: #626262;
+    width: 350px;
+    height: 45px;
+    border: none; 
+    border-bottom: 1px solid #000000;
+    background-color: transparent;
+    padding-left: 5px;
+    padding-right: 41px;
+}
+.s_form input:focus{
+    outline: 0;
+}
+.s_form button{
+    position: absolute;
+    background: transparent;
+    border: none;
+    cursor: pointer; 
+    top: 15px;
+    right: 0;
+}
+.s_form button:focus{
+    outline: 0;
+}
+.s_form button img{
+   
+}
+
+/*newsletter css end*/
+
+/*blog2 css start*/
+
+.blog2{
+    padding-top: 20px;
+}
+
+.load{
+    padding: 100px 0;
+    text-align: center;
+}
+
+.l_btn{
+   padding: 16px 33px;
+   background-color: transparent;
+   border: 1px solid #626262;
+   font-family:Playfair Display,serif;
+   font-size: 20px;
+   font-weight: 400;
+   color: #626262;
+  
+}
+.l_btn:hover{
+    background-color: #626262;
+    color: #ffffff;
+    transition: background-color 0.33s, color 0.33s;
+    
+}
+
+/*blog2  end*/
+
+/*footer  start*/
+
+footer {
+  background-color: #f0f0f0;
+  padding: 50px 0;
+  color: #000000;
+}
+
+footer .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.f_left ul,
+.f_right ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 15px;
+}
+
+.f_left a,
+.f_right a,
+.f_right span {
+  color: #000000;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.f_left a:hover,
+.f_right a:hover {
+  text-decoration: 4px underline;
+  color: #2d08a3;
+  
+}
+
+.f_right img {
+  width: 20px;
+  height: 20px;
+}
+
+/*footer end*/ 
